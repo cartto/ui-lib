@@ -1,0 +1,22 @@
+make loadstring to the thing majig
+
+
+local Library = loadstring(game:HttpGet("thelinktotherawfile"))():init("cunt empire")
+local Tab = Library:Tab("cunt your mom")
+local Tab3 = Library:Tab("papi")
+local Section = Tab:Section("cunt bitch")
+local Section2 = Tab:Section("cunt slut")
+
+Section:Toggle("TOGGLE NAME", false, function(value)
+    print(value)
+end)
+Section:Slider("SLIDER NAME", 0, 50, 100, function(value)
+    print(value)
+end)
+Section:Dropdown("DROPDOWN NAME", {"1", "2", "3"}, "Input Something", function(value)
+    print(value)
+end)
+
+Section:Keybind("KEYBIND NAME", "E", function()
+    print("The keybind was presesd")
+end)
